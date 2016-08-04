@@ -90,16 +90,16 @@
 
     //typed js
     $(".typed").typed({
-        strings: ["My Name is M.Reza", "I'm a Web Designer", "Love Simplicity"],
+        strings: ["My Name is Kambiz Behi", "I'm an Entrepreneur and Developer", "Minimalist"],
         typeSpeed: 100,
-        backDelay: 900,
+        backDelay: 1000,
         // loop
         loop: true
     });
 
     //owl carousel
     $('.owl-carousel').owlCarousel({
-      autoPlay: 3000, //Set AutoPlay to 3 seconds
+      autoPlay: 4000, //Set AutoPlay to 3 seconds
  
       items : 1,
       itemsDesktop : [1199,1],
