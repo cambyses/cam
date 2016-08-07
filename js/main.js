@@ -88,9 +88,9 @@
     inits();
 
 
-    //typed js
+    //typed js *****************************************************************************************
     $(".typed").typed({
-        strings: ["I'm Kambiz Behi", "I'm an Entrepreneur," "a Developer", "and Mars enthusiast"],
+        strings: ["I'm Kambiz Behi", "I'm an Entrepreneur", "a Developer", "and Mars enthusiast"],
         typeSpeed: 70,
         backDelay: 1000,
         // loop
