@@ -454,6 +454,11 @@ h5 {
   letter-spacing: 0.8px;
   font-family: 'Roboto Slab', serif;
 }
+
+h1 #greetings {
+ letter-spacing: 2px;
+}
+
 p {
   letter-spacing: 0.5px;
   font-size: 13px;
