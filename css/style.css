@@ -40,6 +40,7 @@ TABLE OF CONTENTS:
   -ms-box-sizing: border-box;
   box-sizing: border-box;
 }
+
 body,
 html {
   left: 0;
@@ -51,12 +52,14 @@ html {
   height: 100%;
   width: 100%;
 }
+
 body {
   color: #2f2f2f;
   font-size: 16px;
   line-height: 1.7;
   background-color: #fff;
 }
+
 a {
   color: #2f2f2f;
   text-decoration: none;
@@ -66,19 +69,23 @@ a {
   -o-transition: ease .6s;
   -ms-transition: ease .6s;
 }
+
 a:hover {
   text-decoration: none;
   color: #818181;
 }
+
 a:focus {
   outline: none;
   color: #999999;
   text-decoration: none;
 }
+
 iframe {
   border: none;
   width: 100%;
 }
+
 img { max-width: 100%; }
 *:focus {
   outline: none;
@@ -111,7 +118,8 @@ img { max-width: 100%; }
   margin-top: -80px;
 }
 
-/*----------------------------------------- 3) Helper --------------------------------------------------*/
+/*------------------------------------------------- 3) Helper --------------------------------------------------*/
+
 .no-pad {padding: 0 !important; margin: 0 !important;}
 .pad-80 {padding-top: 80px;}
 .mar-t-50{margin-top: 50px !important;}
@@ -133,6 +141,7 @@ img { max-width: 100%; }
   width: 28px;
   left: 0;
 }
+
 .title-small-center span {position: relative;}
 .title-small-center span:after {
   content: "";
@@ -145,7 +154,8 @@ img { max-width: 100%; }
   left: 0;
 }
 
-/*----- background ------*/
+/*---------------------------------------------------- background -----------------------------------------------------*/
+
 .grey-bg {
   background: #f6f6f6;
   padding: 120px 0;
@@ -159,6 +169,7 @@ img { max-width: 100%; }
 }
 
 /*-------------------------------------------------------- content ---------------------------------------------------*/
+
 .content-detail {
   font-weight: 400;
   margin-top: 70px;
@@ -192,6 +203,7 @@ img { max-width: 100%; }
 }
 
 /*---------------------------------------------------------- 4) Header --------------------------------------------------*/
+
 .header {
   width: 100%;
   z-index: 9999;
@@ -228,6 +240,7 @@ img { max-width: 100%; }
   width: 45px;
   display: block;
 }
+
 .opacity-nav {
   opacity: 0.8;
   z-index: 2;
@@ -295,7 +308,9 @@ img { max-width: 100%; }
 
 .menu-button span:nth-child(3) {top: 18px;}
 .menu-button:hover {opacity: 0.6;}
+
 /* Close Button */
+
 .close-button {
   width: 1em;
   height: 1em;
@@ -309,6 +324,7 @@ img { max-width: 100%; }
   background: transparent;
   color: transparent;
 }
+
 .close-button::before,
 .close-button::after {
   content: '';
@@ -319,14 +335,17 @@ img { max-width: 100%; }
   left: 50%;
   background: #bdc3c7;
 }
+
 .close-button::before {
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
 }
+
 .close-button::after {
   -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
 }
+
 /* Menu */
 .menu-wrap {
   position: fixed;
@@ -344,15 +363,18 @@ img { max-width: 100%; }
   -webkit-transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
   transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
 }
+
 .menu,
 .menu-list {
   height: 100%;     
   overflow-x: auto;
 }
+
 .menu-list {
   -webkit-transform: translate3d(0, 100%, 0);
   transform: translate3d(0, 100%, 0);
 }
+
 .menu-list a {
   display: block;
   padding: 1.5em 0;
@@ -361,6 +383,7 @@ img { max-width: 100%; }
   color: #a5a5a5;
   position: relative;
 }
+
 .menu-list a:hover, .menu-list a:active span {color: #ffffff;}
 .menu-list,
 .menu-list a {
@@ -369,22 +392,27 @@ img { max-width: 100%; }
   -webkit-transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
   transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
 }
+
 .menu a:nth-child(2) {
   -webkit-transform: translate3d(0, 1000px, 0);
   transform: translate3d(0, 1000px, 0);
 }
+
 .menu-list a:nth-child(3) {
   -webkit-transform: translate3d(0, 1500px, 0);
   transform: translate3d(0, 1500px, 0);
 }
+
 .menu-list a:nth-child(4) {
   -webkit-transform: translate3d(0, 2000px, 0);
   transform: translate3d(0, 2000px, 0);
 }
+
 .menu-list a:nth-child(5) {
   -webkit-transform: translate3d(0, 2500px, 0);
   transform: translate3d(0, 2500px, 0);
 }
+
 .menu-list a:nth-child(6) {
   -webkit-transform: translate3d(0, 3000px, 0);
   transform: translate3d(0, 3000px, 0);
@@ -489,6 +517,7 @@ p {
   line-height: 34px;
   font-weight: 300;
 }
+
 #home h1 {
   line-height: 40px;
   letter-spacing: 0.6px;
