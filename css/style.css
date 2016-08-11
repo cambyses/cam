@@ -519,8 +519,8 @@ p {
 /*------------------------------------------------ Greetings  ------------------------------------------------------------*/
 
 #home h1 {
-  line-height: 40px;
-  letter-spacing: 2px;
+  line-height: 60px;
+  letter-spacing: 5px;
 }
 
 #home .typed {
