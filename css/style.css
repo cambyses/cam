@@ -224,7 +224,8 @@ img { max-width: 100%; }
   opacity: 0.8;
   z-index: 2;
 }
-/*----------- panel ----------*/
+/*----------------------------------------- panel -------------------------------------------------------*/
+
 .content-wrap {
   -webkit-overflow-scrolling: touch;
   height: 100%;
