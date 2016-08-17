@@ -283,7 +283,8 @@ img { max-width: 100%; }
   transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
 }
 
-/* Menu Button */
+/* ----------------------------------------------------- Menu Button -------------------------------------------------- */
+
 .menu-button {
   width: 34px;
   height: 45px;
