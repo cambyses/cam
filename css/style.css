@@ -600,7 +600,7 @@ p {
   transform: translateX(-50%) translateY(-50%);
 }
 
-/* ------------------------------------------------------- mouse ------------------------------------------------------------- */
+/* ------------------------------------------------------- Mouse ------------------------------------------------------------- */
 .mouse-icon {
   position: absolute;
   border: 2px solid #2f2f2f;
@@ -748,7 +748,8 @@ ul.portfolio-image li .desc{
 }
 
 
-/*---------- b. service -----------*/
+/* ----------------------------------------------------------- b. service -----------------------------------------------------*/
+
 .icon-use {
   font-family: 'Glyphter';
   font-size: 30px;
@@ -770,7 +771,8 @@ ul.portfolio-image li .desc{
   line-height: 26px;
   margin-bottom: 60px;
 }
-/*---------- c. experience -----------*/
+/* -------------------------------------------------------- c. experience ---------------------------------------------------- */
+
 .wrap-card {
   position: relative;
   box-shadow: 0px 0px 0px #818181;
@@ -838,7 +840,7 @@ ul.portfolio-image li .desc{
 .card:hover:before {
   -webkit-transform: scaleY(1);
 }
-/*---------- d. testimonial -----------*/
+/* ------------------------------------------------------- d. testimonial ---------------------------------------------------- */
 #testimonial {
   background-image: url(../images/testimonial-bg.jpg);
   -webkit-background-size: cover;
@@ -884,7 +886,7 @@ ul.portfolio-image li .desc{
   z-index: 1;
   position: relative;
 }
-/*-------------- e. blog -------------*/
+/* ------------------------------------------------------------- e. blog -------------------------------------------------------*/
 .grid {margin-top: 60px;}
 .grid:after {
   content: '';
